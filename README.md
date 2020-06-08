@@ -1,3 +1,3 @@
 # clockApplication
-Ent temel html css javaScript projesi 
+En temel html css javaScript projesi 
 saat uygulaması 
