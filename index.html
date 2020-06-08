@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script type="text/javascript" src="index.js"></script>    -->
+    <link rel="stylesheet" href="style.css">
+    <title>Saat</title>
+</head>
+
+<body>
+    <h1 class="baslık">
+        Saat Uygulaması
+    </h1>
+    <div class="icerik">
+
+    </div>
+    <script>
+        (function () {
+            var saat = document.querySelector('.icerik');
+
+            // 10'dan kucuk saat, dakika ve saniye degerleri
+            // icin, sola bir sifir koyuyoruz.
+            // orn. 2:12:4 => 02:12:04 oluyor.
+            var ekstraSifir = function (x) {
+                return x < 10 ? '0' + x : x;
+            };
+
+            var tiktak = function () {
+                var d = new Date();
+                var h = ekstraSifir(d.getHours());
+                var m = ekstraSifir(d.getMinutes());
+                var s = ekstraSifir(d.getSeconds());
+                var current_time = [h, m, s].join(':');
+                saat.innerHTML = current_time;
+            };
+
+            tiktak();
+
+            // Calling ticktock() every 1 second
+            setInterval(tiktak, 1000);
+        }());
+    </script>
+</body>
+
+</html>

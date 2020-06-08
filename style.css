@@ -1,0 +1,72 @@
+/* html,body{
+    
+
+}
+body{
+    font-size: 76%;
+}
+.baslık{
+    text-align: center;
+    top: 15px;
+    width: 50px;
+    height: 25px;
+    position: absolute;
+}
+div{
+    width: 250px;
+    height: 150px;
+    background: white;
+    font-size: 4em;
+    color: #707070;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -125px;
+    margin-top: -50px;
+    text-align: center;
+    line-height: 100px;
+    border-top: 5px solid #E54B6B;
+    background-color: black;
+    color: white;
+
+} */
+html, body {
+    font-family: 'arial'
+  }
+  
+  body {
+    /* font-size: 76%; */
+    background-color: #2278c8;
+    background-image: -webkit-linear-gradient(71deg, #2278c8 12%, #20ce35 50%, #cc2323 90%);
+    background-image: -moz-linear-gradient(71deg, #2278c8 12%, #20ce35 50%, #cc2323 90%);
+    background-image: -o-linear-gradient(71deg, #2278c8 12%, #20ce35 50%, #cc2323 90%);
+    background-image: linear-gradient(71deg, #2278c8 12%, #20ce35 50%, #cc2323 90%);
+  }
+  
+  div {
+    width: 250px; 
+    height: 100px;
+    background: white;
+    font-size: 4em;
+    color: #707070;
+    
+    /* icerigi ortaliyoruz */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -125px;
+    margin-top: -50px;
+    
+    text-align: center;
+    line-height: 100px;
+    
+    border-top: 5px solid #E54B6B;
+    background-color: black;
+    color: white;
+  }
+  .baslık{
+      text-align: center;
+      margin-top: 5%;
+      font-size: 10em;
+  }
+  
