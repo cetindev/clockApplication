@@ -1,5 +1,4 @@
 # clockApplication
-En temel html css javaScript projesi 
-saat uygulaması 
-
+The most basic html css javaScript project
+clock application
 https://cihatdev.github.io/clockApplication/
